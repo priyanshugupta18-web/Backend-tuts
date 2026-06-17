@@ -1,0 +1,19 @@
+{
+  "name": "firstapp",
+  "version": "1.0.0",
+  "description": "This is my first backend application",
+  "keywords": [
+    "firstApp"
+  ],
+  "license": "ISC",
+  "author": "Priyanshu Gupta",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
