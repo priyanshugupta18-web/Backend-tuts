@@ -18,11 +18,11 @@ const jokes = [
 ]
 
 App.get("/", (req, res) => {
-    res.json("<h1>server is running</h1>");
+    res.send("<h1>server is running</h1>");
 })
 
 App.get("/api/jokes", (req, res) => {
-    res.send(jokes);
+    res.json(jokes);
 })
 
 App.listen(port, () => {
